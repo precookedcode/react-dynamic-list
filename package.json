@@ -1,0 +1,34 @@
+{
+  "name": "@precooked/react-dynamic-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/precookedcode/react-dynamic-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/precookedcode/react-dynamic-list/issues"
+  },
+  "homepage": "https://github.com/precookedcode/react-dynamic-list#readme",
+  "author": "Roberto Carraro",
+  "license": "ISC",
+  "dependencies": {
+    "@precooked/react-icon-cell": "^1.0.3",
+    "@precooked/react-sortable": "^1.0.0",
+    "@precooked/react-text-cell": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
